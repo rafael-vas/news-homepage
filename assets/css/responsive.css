@@ -1,0 +1,120 @@
+@media screen and (max-width: 1024px) {
+
+    body {
+        padding: 40px 80px;
+    }
+
+    .banner .banner-info {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .banner .title {
+        width: 100%;
+    }
+
+    .banner article {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .category {
+        height: 130px;
+    }
+
+    .category .category-img {
+        height: 100%;
+    }
+
+    .category .description {
+        line-height: 18px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .header-container nav {
+        padding: 10px;
+    }
+
+    .header-container .menu-hamburguer {
+        display: block;
+        background: url('../images/icon-menu.svg');
+        height: 17px;
+        width: 42px;
+    }
+
+    .header-container nav .menu {
+        display: none;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        gap: 70px;
+    }
+
+    .banner-img {
+        height: 400px;
+    }
+
+    .new {
+        height: fit-content;
+        gap: 30px;
+    }
+
+    .new article {
+        padding-bottom: 30px;
+    }
+
+    .categories {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .category {
+        width: 100%;
+    }
+
+    .footer {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    body {
+        padding-top: 10px;
+    }
+
+    .header {
+        margin-bottom: 15px;
+    }
+
+    .header-container .logo {
+        width: 50px;
+    }
+
+    .banner .banner-img {
+        height: 320px;
+        background: url('../images/image-web-3-mobile.jpg') center center no-repeat;
+        background-size: cover;
+    }
+
+    .banner .title {
+        font-size: 42px;
+        line-height: 42px;
+    }
+}

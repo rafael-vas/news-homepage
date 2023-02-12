@@ -40,6 +40,15 @@ body {
 
 .header-container nav .menu li a {
     color: var(--neutral-dark-gray);
+    transition: .15s ease-in-out;
+}
+
+.header-container nav .menu li a:hover {
+    color: var(--primary-red);
+}
+
+.header-container .menu-hamburguer {
+    display: none;
 }
 
 /* ======================> MAIN <====================== */
@@ -103,6 +112,12 @@ body {
     background-color: var(--primary-red);
     border-color: rgba(0, 0, 0, 0.100);
     font-weight: 600;
+    transition: .15s ease-in-out;
+}
+
+.banner .btn:hover {
+    background-color: var(--neutral-very-dark-gray);
+    cursor: pointer;
 }
 
 .new {
@@ -136,6 +151,13 @@ body {
 
 .new .subtitle {
     font-size: 19px;
+    width: fit-content;
+    transition: .15s ease-in-out;
+}
+
+.new .subtitle:hover {
+    color: var(--primary-orange);
+    cursor: pointer;
 }
 
 .new .description {
@@ -194,6 +216,13 @@ body {
 .category .subtitle {
     font-weight: 800;
     font-size: 16px;
+    width: fit-content;
+    transition: .15s ease-in-out;
+}
+
+.category .subtitle:hover {
+    color: var(--primary-red);
+    cursor: pointer;
 }
 
 .category .description {
