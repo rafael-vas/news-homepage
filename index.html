@@ -1,60 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
+
 <body>
+    <header class="header">
+        <div class="header-container">
+            <a class="logo-link" href="#">
+              <img src="assets/images/logo.svg" alt="W. Logo">
+            </a>
+            <nav>
+              <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-container">
+      <section class="banner" id="banner">
+          <div class="banner-img"></div>
+          <div class="banner-info">
+              <h1 class="title">The Bright Future of Web 3.0?</h1>
+              <article>
+                <p class="description">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                <button class="btn">Read more</button>
+              </article>
+          </div>
+      </section>
+      <section class="new" id="new">
+          <h2 class="title">New</h2>
+          <article>
+              <h4 class="subtitle">Hydrogen VS Electric Cars</h4>
+              <p class="description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+          <article>
+              <h4 class="subtitle">The Downsides of AI Artistry</h4>
+              <p class="description">What are the possible adverse effects of on-demand AI image generation?</p>
+          </article>
+          <article>
+              <h4 class="subtitle">Is VC Funding Drying Up?</h4>
+              <p class="description">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </article>
+        </section>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <section class="categories" id="categories">
+            <div class="category">
+                <div class="category-img img-1"></div>
+                <article>
+                    <span class="number">01</span>
+                    <h4 class="subtitle">Reviving Retro PCs</h4>
+                    <p class="description">What happens when old PCs are given modern upgrades?</p>
+                </article>
+            </div>
+              <div class="category">
+                <div class="category-img img-2"></div>
+                <article>
+                    <span class="number">02</span>
+                    <h4 class="subtitle">Top 10 Laptops of 2022</h4>
+                    <p class="description">What happens when old PCs are given modern upgrades?</p>
+                </article>
+            </div>
+            <div class="category">
+                <div class="category-img img-3"></div>
+                <article>
+                    <span class="number">03</span>
+                    <h4 class="subtitle">The Growth of Gaming</h4>
+                    <p class="description">How the pandemic has sparked fresh opportunities.</p>
+                </article>
+            </div>
+      </section>
+    </main>
+    <footer class="footer">
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend   Mentor</a>.
+            Coded by <a href="#">Rafael Vasconcelos</a>.
+        </div>
+    </footer>
 </body>
+
 </html>

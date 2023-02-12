@@ -1,0 +1,44 @@
+/* ======================> FONT FAMILY <====================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+/* ======================> VARIABLES <====================== */
+@import url('variables.css');
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    padding: 40px 140px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/* ======================> HEADER <====================== */
+
+.header {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container nav .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.header-container nav .menu li a {
+    color: var(--neutral-dark-gray);
+}
+
