@@ -30,20 +30,19 @@ body {
     align-items: center;
 }
 
-.header-container nav .menu {
-    list-style-type: none;
+.header-container .menu {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 35px;
 }
 
-.header-container nav .menu li a {
+.header-container .menu a {
     color: var(--neutral-dark-gray);
     transition: .15s ease-in-out;
 }
 
-.header-container nav .menu li a:hover {
+.header-container .menu a:hover {
     color: var(--primary-red);
 }
 
