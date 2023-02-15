@@ -68,11 +68,10 @@
         top: -20px;
         height: 100vh;
         padding-bottom: 150px;
-        box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.400);
+        box-shadow: 0 0 0 200vh rgba(0, 0, 0, 0.400);
     }
 
     .header-container .menu a {
-        /* text-align: center; */
         width: 100%;
         height: 50px;
         line-height: 50px;
@@ -122,7 +121,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
 
     body {
         padding-top: 10px;
